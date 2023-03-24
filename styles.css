@@ -1,0 +1,201 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+ .navbar 
+ {
+    background:skyblue;
+    height:60px;
+    display:flex;
+    align-items:center;
+    font-size:1.2rem;
+    position:sticky;
+    top: 0; 
+    z-index: 999;
+ }
+ .navbar_container 
+ {
+    display:block;
+    justify-content: space-between;
+    height: 15px;
+    z-index: 1;
+    width: 40%;
+    max-width: 1000px;
+    margin: -80px;
+    padding:0 50px;
+ }
+ .navbar_menu
+ {
+    display:flex;
+    align-items: center;
+    list-style:none;
+    text-align: center;
+ }
+ .navbar_item
+ {
+    height:80px;
+    color:chartreuse;
+    margin-left: 200px;
+ }
+ .record_menu
+ {
+    display:table-row;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+ }
+
+ .record_item
+ {
+    height:80px;
+    color: green;
+ }
+
+ .record_links
+ {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 10%;
+    margin-bottom: 50px;
+    margin-left:35px;
+    margin-top: 30px;
+ }
+ .navbar-links
+ {
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 100%;
+    height: 100%;
+ }
+
+ .navbar_links:hover
+ {
+    color: rgb(15, 15, 15);
+    transition: all 0.3s ease;
+ }
+
+ .record_links:hover
+ {
+    color:rgb(13, 13, 14);
+    transition: all 0.5s ease;
+ }
+ 
+
+ #logo
+{
+   width:100px;
+  margin-left:35px;
+  margin-top: -204px;
+  border-radius: 50px;
+}
+ /*footer style */
+ .footer_container
+ {
+    background-color: white;
+    padding: 5rem o;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer-links
+ {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer_link_wrapper
+ {
+   display:-webkit-inline-box;
+ }
+
+ .footer_link_items
+ {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 500px;
+    margin-left:150px;
+    margin-bottom:100px;
+    text-align: left;
+    width: 100px;
+    box-sizing: border-box;
+ }
+
+ .footer_links_items h2
+ {
+    margin-bottom: 1600px;
+ }
+
+ .footer_links_items h2
+ {
+   color: white;
+ }
+
+ .footer_links:hover
+ {
+    color:darkolivegreen;
+    transition: all 0.5s ease;
+ }
+
+ .footer_link_items:hover
+ {
+    color:rgb(1, 1, 29);
+    transition: all 0.5s ease;
+ }
+ /*sports page section*/
+
+ .sports_details
+ {
+    display:-webkit-inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+     margin-right:5000px;
+     margin-top:100%;
+ }
+
+ p
+ {
+   margin-left:12%;
+   margin-top: 1%;
+ }
+ h3
+ {
+   margin-left:25%;
+   margin-top: 1%;
+   color:rgb(5, 3, 1);
+ }
+ #main_img
+ {
+   margin-left:100%;
+   margin-top: 50%;
+   object-fit: cover;
+   
+ }
+  h4
+  {
+   margin-left: 15%;
+   color:rgb(39, 119, 211);
+   font-style: italic;
+  }
+.school_title
+{
+   margin-left: 35%;
+   justify-content: center;
+}
+b{
+   margin-left:11%;
+}
+
+
